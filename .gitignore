@@ -13,3 +13,7 @@ node_modules
 .DS_Store
 .idea
 .vscode
+
+# Claude Code AI files
+.claude
+PROJECT_NOTES.md

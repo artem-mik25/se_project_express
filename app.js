@@ -1,23 +1,19 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const routes = require("./routes");
 
 const { PORT = 3001 } = process.env;
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/wtwr_db");
+mongoose.connect("mongodb://localhost:27017/wtwr_db");
+
+// Enable CORS for all origins
+app.use(cors());
 
 // Middleware to parse JSON
 app.use(express.json());
-
-// Temporary authorization middleware
-app.use((req, res, next) => {
-  req.user = {
-    _id: "68f84675a712aecbd60130e6", // Test user _id
-  };
-  next();
-});
 
 // Routes
 app.use("/", routes);
