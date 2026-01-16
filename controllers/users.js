@@ -20,7 +20,7 @@ const createUser = (req, res) => {
       .send({ message: "Email and password are required" });
   }
 
-  bcrypt
+  return bcrypt
     .hash(password, 10)
     .then((hash) => User.create({ name, avatar, email, password: hash }))
     .then((user) => {
