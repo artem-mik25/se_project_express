@@ -1,10 +1,16 @@
 # WTWR (What to Wear?) - Backend
 
+**Deployed domain:** https://artemmik25.mooo.com
+
+**Frontend repository:** https://github.com/artem-mik25/se_project_react
+
+**Video pitch:** _(link to be added)_
+
 Backend server for the WTWR (What to Wear?) application. This Express.js server provides a secure RESTful API for managing users and clothing items with JWT authentication and MongoDB database storage.
 
 ## Project Description
 
-This is the backend server for the WTWR application built during TripleTen's Sprints 12 and 13. The server handles:
+This is the backend server for the WTWR application built during TripleTen's Sprints 12–15. The server handles:
 - User authentication and authorization with JWT tokens
 - Secure user registration and login
 - User profile management
