@@ -17,3 +17,6 @@ node_modules
 # Claude Code AI files
 .claude
 PROJECT_NOTES.md
+
+# Environment variables
+.env
