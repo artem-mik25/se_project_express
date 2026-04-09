@@ -4,7 +4,7 @@
 
 **Frontend repository:** https://github.com/artem-mik25/se_project_react
 
-**Video pitch:** _(link to be added)_
+**Video walkthrough:** _(link to be added)_
 
 Backend server for the WTWR (What to Wear?) application. This Express.js server provides a secure RESTful API for managing users and clothing items with JWT authentication and MongoDB database storage.
 
