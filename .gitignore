@@ -17,6 +17,13 @@ node_modules
 # Claude Code AI files
 .claude
 PROJECT_NOTES.md
+CLAUDE.md
+memory/
+walkthrough-script.md
+mongo-image-update.md
+
+# Personal files
+Me.PNG
 
 # Environment variables
 .env
